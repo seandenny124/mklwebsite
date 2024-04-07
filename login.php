@@ -3,6 +3,7 @@
 include 'header.php';
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: index.php");
+    $msg = "<div class='error'>Already Logged In</div>";
     exit;
 }
 $msg = '';

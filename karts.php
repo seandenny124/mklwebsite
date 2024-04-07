@@ -2,7 +2,7 @@
     <head>
         <title>Mario Kart Lore</title>
         <link rel="icon" type="image/x-icon" href="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/m/mario-kart-8-deluxe-switch/description-image">
-        <link rel="stylesheet" href="stylesCharacters.css">
+        <link rel="stylesheet" href="stylesKarts.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -10,7 +10,7 @@
 
 
 <div class="page">
-    <button class="my-button">Characters and Lore</button>
+    <button class="my-button">Karts and Stats</button>
     
 
 </div>
@@ -27,34 +27,34 @@
     </div>
 
 
+   
     <div class="login">
         <button class="tablinks"><a href="login.php">Log In</a></button>
         <button class="tablinks"><a href="signup.php">Sign Up</a></button>
     </div>
 
 
-
-
     <div class = "listedImgKarts">
         
-                <img src = "https://cdn.vox-cdn.com/thumbor/VlPF8UuUKoUHFtiebdDsQpW1zYs=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9632107/mario.jpg" alt = ""/> <button class = "kart-button">Mario</button><p>The man, the myth, the Mr. Wahoo guy, always been there</p>
-                <img src = "https://www.smashbros.com/assets_v2/img/fighter/luigi/main.png" alt = ""/><button class = "kart-button">Luigi</button><p>The bro that's always been there, jumping high and scared through the mansions</p>
+                <img src = "https://www.jakks.com/wp-content/uploads/2023/08/7155262.jpeg" alt = ""/> <button class = "kart-button">The original kart!</button><p>Usually the default kart for every game of mario kart made!</p>
+                <img src = "https://tiermaker.com/images/chart/chart/mario-kart-tour-all-karts-cat-tour-2022-15077984/b-dasherpng.png" alt = ""/><button class = "kart-button">The DS kart</button><p>This kart was originally made for the DS, and has great speed!</p>
             
           
-                <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Rosalina_Super_Mario_Party.png/220px-Rosalina_Super_Mario_Party.png" alt = ""/><button class = "kart-button">Rosalina</button> <p> Originally made for Mario Galaxy, but ready to burn some tire</p>
-             <img src = "https://mario.wiki.gallery/images/thumb/1/13/Funky_Kong_Artwork_-_Donkey_Kong_Country_Tropical_Freeze.png/1200px-Funky_Kong_Artwork_-_Donkey_Kong_Country_Tropical_Freeze.png" alt = ""/><button class = "kart-button">Funky Kong</button><p>The legend of the tracks, the master and pro Mario Kart racer</p>
-             <img src = "https://content.fortune.com/wp-content/uploads/2019/06/nintendo-e3-doug-bowser-e1560811244503.jpg" alt = ""/><button class = "kart-button">Doug Bowser the Nintendo Guy?</button> <p>Bro's name is literally bowser</p>
+                <img src = "https://oyster.ignimgs.com/mediawiki/apis.ign.com/mario-kart-for-wii-u/d/da/MercedesDLC.jpg" alt = ""/><button class = "kart-button">Mercedes Benz</button> <p> No freaking way it's Mario in the Mercedes Benz 0_0</p>
+             <img src = "https://64.media.tumblr.com/7a73ea6cdd275bdecfb764bf779cf482/34bd403ca26434a8-8a/s1280x1920/b8edbc5933516db88706776adac02719fec5709f.jpg" alt = ""/><button class = "kart-button">Mach Bike</button><p>If you didn't choose this bike in MK Wii, you're literally bad</p>
+             <img src = "https://editorial.pxcrush.net/carsales/general/editorial/Mari-Kart-Japan-011.jpg" alt = ""/><button class = "kart-button">Mario Luigi Kart IRL?????</button> <p>Mario and Luigi about to mess some people up in the streets</p>
      
             
     </div>
     
+   
+        
     <div class="tab">
         <button class="tablinks"><a href="index.html">Homepage</button>
-        <button class="tablinks"> <a href="karts.html">Karts</a></button>
-        <button class="tablinks"><a href="maps.html">Maps</a></button>
-        <button class="my-button">Characters</button>
-        <button class="tablinks"><a href="more.html">More</a></button>
-  
+        <button class="my-button"> Karts</button>
+        <button class="tablinks"><a href="maps.php">Maps</a></button>
+        <button class="tablinks"><a href="characters.php">Characters</a></button>
+        <button class="tablinks"><a href="more.php">More</a></button>
   <!-- <button class="tablinks" onclick="openCity(event, 'London')">London</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->

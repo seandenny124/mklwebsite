@@ -1,6 +1,6 @@
 
 <?php session_start();
-include 'config.php';
+include 'header.php';
 $msg = '';
 if (isset($_POST['comment']) && $_POST['comment'] !='') {
     if (isset($_POST['comment']) && !empty($_POST['comment'])) {

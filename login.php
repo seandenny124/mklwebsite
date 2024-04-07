@@ -1,12 +1,12 @@
 
 <?php
 include 'header.php';
+$msg = '';
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: index.php");
     $msg = "<div class='error'>Already Logged In</div>";
     exit;
 }
-$msg = '';
 if (isset($_POST['email']) && $_POST['email'] != '') {
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -26,7 +26,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             $_SESSION["email"] = $user_data[0]['email'];
             $_SESSION["user_role"] = $user_data[0]['user_role'];
             // Redirect user to the previous page or index page
-            header("location: index.php"); // You can change this to redirect to the previous page if needed
+            header("location: more.php");
             exit;
         } else {
             $msg = "<div class='error'>Invalid password</div>";

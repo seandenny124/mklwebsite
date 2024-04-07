@@ -126,10 +126,10 @@ body {
         <?php } ?>
             
         <div class="tab">
-            <button class="tablinks"><a href="index.html">Homepage</button>
-            <button class="tablinks"> <a href="karts.html">Karts</a></button>
-            <button class="my-button"><a href="maps.html">Maps</a></button>
-            <button class="tablinks"><a href="characters.html">Characters</a></button>
+            <button class="tablinks"><a href="index.php">Homepage</button>
+            <button class="tablinks"> <a href="karts.php">Karts</a></button>
+            <button class="my-button"><a href="maps.php">Maps</a></button>
+            <button class="tablinks"><a href="characters.php">Characters</a></button>
             <button class="my-button">More</button>
         <!-- <button class="tablinks" onclick="openCity(event, 'London')">London</button>
         <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>

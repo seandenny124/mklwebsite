@@ -49,7 +49,7 @@
     </div>
     
     <div class="tab">
-        <button class="tablinks"><a href="index.html">Homepage</button>
+        <button class="tablinks"><a href="index.php">Homepage</button>
         <button class="tablinks"> <a href="karts.php">Karts</a></button>
         <button class="my-button">Maps</button>
         <button class="tablinks"><a href="characters.php">Characters</a></button>

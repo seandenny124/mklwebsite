@@ -1,8 +1,8 @@
 <?php
-$servername = "us-cluster-east-01.k8s.cleardb.net";
-$username = "b8193b124c8531";
-$password = "c2a67b2b"; 
-$dbname = "heroku_50fd6e1931133b6"; 
+$servername = "DB_HOST";
+$username = "DB_USER";
+$password = "DB_PASS"; 
+$dbname = "DB_SCHEMA"; 
 $conn = $con = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

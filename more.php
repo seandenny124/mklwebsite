@@ -171,9 +171,6 @@ if(isset($_SESSION["email"])){
     <?php 
     if(isset($_SESSION) && $_SESSION['user_role'] == 1){
         $stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email");
-    }else if ($_SESSION['user_role'] == 2) {
-        $stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email WHERE comments.username = ?");
-        $stmt_check->bind_param("s", $_SESSION["email"]);
     }
     else {
     $stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email WHERE comments.username = ?");

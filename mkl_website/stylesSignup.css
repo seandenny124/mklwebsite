@@ -1,0 +1,86 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body,
+  html {
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+  }
+  
+  .login-box {
+    background-color: blue;
+    width: 400px;
+    height: 388px;
+    margin: 250px auto;
+  }
+  
+  .login-box h1 {
+    color: #ffffff;
+    margin: 0px 35px;
+    margin-bottom: 35px;
+    padding-top: 25px;
+  }
+  
+  .login-box form input {
+    display: block;
+    width: 324px;
+    height: 50px;
+    margin-left: 35px;
+    margin-right: 41px;
+    margin-bottom: 24px;
+  }
+  
+  #submit {
+    display: inline;
+    color: #010100;
+    background-color: #e4ff77;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    width: 350px;
+    height: 50px;
+    margin-left: 24px;
+    margin-right: 41px;
+    margin-bottom: 33px;
+  }
+  
+  #pwdreset {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px 0px;
+    margin-left: 225px;
+  }
+  
+  #register-button {
+    display: inline;
+    color: #010100;
+    background-color: #e4ff77;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    margin-left: 24px;
+    margin-right: 41px;
+    margin-bottom: 33px;
+  }
+  
+  .submits {
+    display: flex;
+  }
+
+  img {
+    /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  position: absolute;
+  padding: 5px;
+  width: 250px;
+  height: 300px;
+  transform: translateY(-5%);
+
+}
+.other-image {
+    position: absolute;
+    left: 1200px;
+}

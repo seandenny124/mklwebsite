@@ -1,6 +1,10 @@
 <?php
 include 'header.php';
 $msg = '';
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    header("location: more.php");
+    exit;
+}
 if (isset($_POST['email']) && $_POST['email'] !='') {
     $email = $_POST['email'];
     $password = $_POST['password'];

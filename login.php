@@ -4,7 +4,6 @@ include 'header.php';
 $msg = '';
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: index.php");
-    $msg = "<div class='error'>Already Logged In</div>";
     exit;
 }
 if (isset($_POST['email']) && $_POST['email'] != '') {

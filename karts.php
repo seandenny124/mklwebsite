@@ -28,11 +28,17 @@
 
 
    
+    <?php if(isset($_SESSION["email"])){ ?>
     <div class="login">
-        <button class="tablinks"><a href="login.php">Log In</a></button>
-        <button class="tablinks"><a href="signup.php">Sign Up</a></button>
-    </div>
-
+            <button class="tablinks"><a href="logout.php">Logout</a></button>
+            </div>
+    <?php }else{ ?>
+        
+            <div class="login">
+            <button class="tablinks"><a href="login.php">Log In</a></button>
+            <button class="tablinks"><a href="signup.php">Sign Up</a></button>
+        </div>
+        <?php } ?>
 
     <div class = "listedImgKarts">
         

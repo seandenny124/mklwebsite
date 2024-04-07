@@ -1,6 +1,6 @@
 
 <?php session_start();
-include 'header.php';
+include 'dao.php';
 $msg = '';
 if (isset($_POST['comment']) && $_POST['comment'] !='') {
     if (isset($_POST['comment']) && !empty($_POST['comment'])) {

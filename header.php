@@ -1,4 +1,4 @@
-<?php session_start(); include 'config.php'; ?>
+<?php session_start(); include 'dao.php'; ?>
 <html>
     <head>
         <meta charset="utf-8">

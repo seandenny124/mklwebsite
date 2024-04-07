@@ -187,7 +187,7 @@ if(isset($_SESSION["email"])){
         <table style="width: 30%;float: left;position: absolute;z-index: 999999999999;top: 80%;left: 1%;">
             <thead>
                 <tr>
-                    <?php if(isset($_SESSION) && $_SESSION['user_role'] == 1 || isset($_SESSION) && $_SESSION['user_role'] == 2 ){ ?>
+                    
                     <th>User</th>
                     <th>Comment</th>
                     <th>Date - Time</th>
@@ -195,7 +195,6 @@ if(isset($_SESSION["email"])){
                     <?php if(isset($_SESSION) && $_SESSION['user_role'] == 1){ ?>
                     <th>Reply</th>
                     <th>Delete</th>
-                    <?php } ?>
                     <?php } ?>
                 </tr>
             </thead>

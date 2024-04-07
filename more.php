@@ -173,7 +173,8 @@ if(isset($_SESSION["email"])){
         $stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email");
     }
     else {
-    $stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email WHERE comments.username = ?");
+        $stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email");
+    //$stmt_check = $conn->prepare("SELECT comments.*, comments.id AS cid, users.* FROM comments JOIN users ON comments.username = users.email WHERE comments.username = ?");
         $stmt_check->bind_param("s", $_SESSION["email"]);
     }
     

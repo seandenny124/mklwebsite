@@ -163,7 +163,7 @@ if(isset($_SESSION["email"])){
     <!-- Comment form -->
     <form method="post">
         <div class="comments">
-            <label for="comment" style="width:100%;float:left">Add Comment</label>
+            <label for="comment" style="width:100%;float:left">Add Comment / Question, an Admin will answer soon!</label>
             <input type="text" id="comment" name="comment" placeholder="" style="padding: 10px 10px;width: 30%;margin:15px 0"><br>
             <input type="submit" name="submit" value="Submit" style="padding: 10px 30px;background: red;border-radius: 5px;border: 1px solid red;color: #fff;font-size: 17px;font-weight: 600;cursor:pointer;">
         </div>

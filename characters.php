@@ -45,7 +45,7 @@
     <div class = "listedImgKarts">
         
                 <img src = "https://cdn.vox-cdn.com/thumbor/VlPF8UuUKoUHFtiebdDsQpW1zYs=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9632107/mario.jpg" alt = ""/> <button class = "kart-button"><a href="Mario.html">Mario</a></button><p>The man, the myth, the Mr. Wahoo guy, always been there</p>
-                <img src = "https://www.smashbros.com/assets_v2/img/fighter/luigi/main.png" alt = ""/><button class = "kart-button">Luigi</button><p>The bro that's always been there, jumping high and scared through the mansions</p>
+                <img src = "https://www.smashbros.com/assets_v2/img/fighter/luigi/main.png" alt = ""/><button class = "kart-button"><a href="Luigi.html">Luigi</a></button><p>The bro that's always been there, jumping high and scared through the mansions</p>
             
           
                 <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Rosalina_Super_Mario_Party.png/220px-Rosalina_Super_Mario_Party.png" alt = ""/><button class = "kart-button">Rosalina</button> <p> Originally made for Mario Galaxy, but ready to burn some tire</p>

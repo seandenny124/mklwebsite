@@ -2,11 +2,18 @@
     color: black;
 } 
 
+@font-face {
+font-family: 'GoofyAhhFont'; 
+        src: url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap') format('truetype'); 
+    }
+
+
 h1 {
   position: relative;
     color: purple;
     top: -325px;
-    
+    font-family: 'GoofyAhhFont', sans-serif; 
+ 
   
 } 
 

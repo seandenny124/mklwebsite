@@ -206,7 +206,7 @@ if(isset($_SESSION["email"])){
                     ?>
                     <tr>
                         <td><?php echo $row['username']; ?></td>
-                        <td><?php echo $filteredComment; ?></td>
+                        <td><?php echo htmlspecialchars($filteredComment); ?></td>
                         <td><?php echo $row['created_at']; ?></td>
                         <td><?php echo $row['admin_reply']; ?></td>
                         <?php if(isset($_SESSION) && $_SESSION['user_role'] == 1){ ?>

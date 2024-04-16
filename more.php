@@ -1,5 +1,10 @@
 
 <?php session_start();
+ini_set('display_errors');
+
+ini_set('display_startup_errors');
+
+error_reporting(E_ALL);
 include 'dao.php';
 $msg = '';
 if (isset($_POST['comment']) && $_POST['comment'] !='') {

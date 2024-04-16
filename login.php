@@ -120,7 +120,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
          <script>
             $(document).ready(function(){
-            $('.error').fadeIn().delay(3000).fadeOut();
+            $('.error').fadeIn().delay(1500).fadeOut();
             });
         </script>
     </body>

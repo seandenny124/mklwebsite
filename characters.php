@@ -50,7 +50,7 @@
           
                 <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Rosalina_Super_Mario_Party.png/220px-Rosalina_Super_Mario_Party.png" alt = ""/><button class = "kart-button">Rosalina</button> <p> Originally made for Mario Galaxy, but ready to burn some tire</p>
              <img src = "https://mario.wiki.gallery/images/thumb/1/13/Funky_Kong_Artwork_-_Donkey_Kong_Country_Tropical_Freeze.png/1200px-Funky_Kong_Artwork_-_Donkey_Kong_Country_Tropical_Freeze.png" alt = ""/><button class = "kart-button">Funky Kong</button><p>The legend of the tracks, the master and pro Mario Kart racer</p>
-             <img src = "https://content.fortune.com/wp-content/uploads/2019/06/nintendo-e3-doug-bowser-e1560811244503.jpg" alt = ""/><button class = "kart-button">Doug Bowser the Nintendo Guy?</button> <p>Bro's name is literally bowser</p>
+             <img src = "https://content.fortune.com/wp-content/uploads/2019/06/nintendo-e3-doug-bowser-e1560811244503.jpg" alt = ""/><button class = "kart-button"><a href="https://www.youtube.com/watch?v=vkQTgjGboWQ">Doug Bowser the Nintendo Guy?</a></button> <p>Bro's name is literally bowser</p>
      
             
     </div>
